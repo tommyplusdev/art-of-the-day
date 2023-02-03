@@ -3,20 +3,22 @@ A random art generator using Harvard's Art Museum API.
 
 `<work-in-progress>`
 
-## Planned Usage
+![art_test2](https://user-images.githubusercontent.com/116316499/216523717-76d92717-3b15-4138-ada8-5f24009b6595.png)
 
-1. Enter your `API-KEY` from Harvard*
-- This should be encrypted.
-2. Click "Art of the Day!"
-3. Examine the art piece you've been blessed with:
+## Planned Usage
+1. Load the Page.
+2. Examine the art piece you've been blessed with:
 - The artwork itself
 - Title
-- Year of the Artist
-- Artist Name
+- The Artist Name
+- Year of the Artwork
 - Description (if any)
 
+Miscellaneous information could be added, such as art piece technique, main colors used, etc.
 
-** May be disregarded if one is hosting their own server, in this case, my own.
+As it is a `<work-in-progress>`, this can always be revisited to increase the functionality of the site.
+
+The server-side components can be improved to store the time of the web server and conditionally generate a new URL on a new day. In other words, the amount of API calls is reduced, and provides exactly the experience one should expect for the art of the day.
 
 ## For Developers
 
