@@ -47,22 +47,22 @@ npm install
 
 (For those unfamilliar, this npm will read the package.json included from this repo, and fetch the dependencies needed to run the node server if you don't have them already installed)
 
-4. Create a .env file in the root of the project and add the following line with your own API key:
+4. Create a `.env` file in the root of the project and add the following line with your own API key:
 
-```
+```bash
 touch .env
-nano .env
-# or use vi .env
+nano .env # or use vi .env
+
 API_KEY=your-api-key-here
 ```
 
-> Be sure to add this `.env` file to `.gitignore` **very important!**
+> Be sure to add this `.env` file to `.gitignore`-- **very important**, to ensure your API-KEY is hidden and not mis-used.
 
 ```bash
 touch .gitignore # if it isn't created already
-nano .gitignore
+nano .gitignore # or use vi .gitignore
 
-API_KEY=your-api-key-here
+.env
 ```
 
 5. Create an `index.js` file, which contains your local server's code:
