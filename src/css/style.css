@@ -21,20 +21,69 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+h1,
+h2 {
+     font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 4vw;
+     text-align: left;
 }
 
+h1 {
+     display: inline-block;
+     background-color: black;
+     color: white;
+     padding: 0.5vw;
+}
+
+p,
+span,
+small,
+datetime {
+     font-family: "Lora", Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+     font-size: 3vw;
+}
+
+#culture,
+#dated {
+     font-weight: 500;
+}
+
+.misc {
+     display: block;
+}
+
+/* .img-title {
+     border-left: 2px solid black; padding-left: 10px;
+} */
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+.img-desc-area {
+     display: flex;
+     width: 100vw;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     margin-bottom: 3rem;
 }
 
-footer {
+section.art-info {
+     max-width: 30vw;
+}
 
+h1 {
+     margin-left: 10rem;
+}
+
+img {
+     display: block;
+     margin: 0 auto;
+     height: 30vw;
 }
 
 /******************************************
